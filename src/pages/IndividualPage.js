@@ -5,7 +5,7 @@ import TodoList from '../components/TodoList';
 
 function IndividualPage () {
   return (
-    <div className="">
+    <div className="flex flex-col items-center relative sm:static">
       <Header />
       <TodoList />
       <Footer />
