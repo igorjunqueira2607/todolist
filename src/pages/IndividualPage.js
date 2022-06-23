@@ -1,8 +1,13 @@
-import React from 'react';
+import { React } from 'react';
+import Header from '../components/Header';
+import TodoList from '../components/TodoList';
 
 function IndividualPage () {
   return (
-    <div></div>
+    <div>
+      <Header />
+      <TodoList />
+    </div>
   )
 }
 

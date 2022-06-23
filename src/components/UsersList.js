@@ -14,8 +14,6 @@ function UsersList () {
     listUsers()
   }, [])
 
-  console.log(users);
-
   return (
     <main>
       <section className="grid grid-cols-3">
