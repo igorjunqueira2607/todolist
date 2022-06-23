@@ -5,7 +5,7 @@ import UsersList from '../components/UsersList';
 
 function MainPage () {
   return (
-    <div>
+    <div className="w-full flex flex-col relative lg:static">
       <Header />
       <UsersList />
       <Footer />

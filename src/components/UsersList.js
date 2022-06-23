@@ -15,8 +15,8 @@ function UsersList () {
   }, [])
 
   return (
-    <main className="flex justify-center items-center w-full h-screen">
-      <section className="grid grid-cols-3 place-items-center w-full">
+    <main className="flex justify-center items-center w-full mt-10 lg:mt-28 mb-10 lg:mb-0">
+      <section className="grid grid-cols-1 lg:grid-cols-3 place-items-center w-full">
         {users.map((user) => (
           <UserCard 
           key={user.id}

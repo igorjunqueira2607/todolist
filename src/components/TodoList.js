@@ -17,7 +17,11 @@ function TodoList () {
   }, [])
 
   return (
-    <section>
+    <section className="">
+      <div>
+        <input />
+        <button type="button">Adicionar Tarefa</button>
+      </div>
       {todos.map((item) => (
         <div>
           <p>{item.title}</p>

@@ -5,13 +5,13 @@ export async function getTodosFromUser(user) {
   return responseJSON;
 };
 
-export async function addTodos() {
+export async function addTodos(id, title) {
   const endpoint = `https://jsonplaceholder.typicode.com/todos`;
   const response = await fetch (endpoint, {
     method: 'POST',
     body: JSON.stringify({
-      userId: 1,
-      title: '',
+      userId: id,
+      title: title,
       completed: false,
     }),
     headers: {
